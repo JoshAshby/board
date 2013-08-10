@@ -7,7 +7,9 @@ import arrow
 import pystache
 from markdown import markdown
 
-time = arrow.utcnow()
+now = arrow.utcnow()
+time = now.format("HH:mm")
+date = now.format("YYYY-MM-DD")
 current_path = os.getcwd() + "/"
 
 with open(current_path + "config.yaml", "r") as open_config:
@@ -52,6 +54,7 @@ try:
 except:
     pass
 
+
 class configException(Exception):
     pass
 
@@ -77,18 +80,19 @@ class Page:
         if not "title" in self.page_config:
             logger.warn("""%s contains no title. Skipping build!"""
                         % self.full_where)
+            raise configException("No title")
 
     def render(self, data={}):
-        data.update({"time": time.format("HH:mm"),
-                     "date": time.format("YYYY-MM-DD"),
+        data.update({"time": time,
+                     "date": date,
                      "site_title": config["site_title"]})
         data.update(self.page_config)
 
         templated_markdown = pystache.render(self.raw_markdown, data)
         data["content"] = markdown(templated_markdown)
 
-        template = self.page_config["template"] if "template" in self.page_config else "single.html"
-        template_path = whats_where["templates"] + "/" + template
+        template = self.page_config["template"] if "template" in self.page_config else "single"
+        template_path = whats_where["templates"] + "/" + template + ".html"
 
         with open(template_path, "r") as tmpl_data:
             raw_tmpl = unicode(tmpl_data.read())
@@ -114,9 +118,11 @@ if __name__ == "__main__":
     for folder in os.walk(whats_where["input"]):
         all_files = folder[2] # files in current directory
         for single_file in all_files:
-            try:
-                page = Page("%s/%s" % (folder[0], single_file))
-                page.render()
-                page.write()
-            except configException:
-                pass
+            bits = single_file.split(".")
+            if bits[len(bits)-1] == "md":
+                try:
+                    page = Page("%s/%s" % (folder[0], single_file))
+                    page.render()
+                    page.write()
+                except configException:
+                    pass

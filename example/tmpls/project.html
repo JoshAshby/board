@@ -13,11 +13,11 @@
   <body>
 
     <div class="navbar">
-      <a class="navbar-brand" href="/">JoshAshby.com</a>
+      <a class="navbar-brand" href="#">JoshAshby.com</a>
       <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
         <li><a href="/posts/">News</a></li>
-        <li><a href="/projects/">Projects</a></li>
+        <li class="active"><a href="/projects/">Projects</a></li>
       </ul>
       <ul class="nav navbar-nav pull-right">
         <li><a href="/me/about/">About</a></li>
@@ -26,7 +26,25 @@
 
     <div class="container">
 
-      {{{content}}}
+      <div class="row">
+        <div class="col-6 col-offset-3">
+          <h1>{{{title}}} <small>By {{author}}</small></h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 col-offset-3">
+          {{{content}}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col--6 col-offset-3">
+          <div class="well">
+            Posted on {{{date}}}
+          </div>
+        </div>
+      </div>
 
       <hr>
       <footer id="footer">

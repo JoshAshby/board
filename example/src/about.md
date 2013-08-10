@@ -1,7 +1,7 @@
 +++
 title: "About Me"
 description: "What... who am I?"
-date: "2013-07-08"
+template: "about"
 +++
 
 Just an average university student who loves to program and work with some
