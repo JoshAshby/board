@@ -1,0 +1,4 @@
+input: "src"
+output: "/srv/http/joshashby.com"
+templates: "tmpls"
+site_title: "Test Site"
