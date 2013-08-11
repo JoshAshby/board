@@ -1,4 +1,29 @@
-#!/usr/bin/env python
+#!/usr/bin/python2
+"""
+Simple static website generator.
+
+Board is lightly inspired by the recent release of `Hugo <>`__
+There are a few minor things in Hugo that I didn't quite like, such as the lack
+of support for top level pages. As a result I tried to write Board so it didn't
+how the pages where arranged and organized, and instead only cares about having
+pages to render.
+
+At the heart of Board is YAML for configuration, both for the site wide
+config.yaml, and the per page configuration defined by wrapping the YAML in +++
+Mustache templates are used for the actual rendering of everything into a solid
+web page, and as a result custom variables can be defined in the per page
+config that can be subsequently used in the mustache templates. The actual
+content is created with Markdown, but support for mustache variables is
+supplied, meaning things like blog posts can use a "date" config value or
+similar.
+
+The only required per page config is title, and that is used for each page to
+render the <tile> tag. If a page doesn't have a title in the config then it is
+skipped.
+
+The directory organization of the input directory matches that of the output,
+and all .md documents will be converted into .html with the same name.
+"""
 import os
 import logging
 
@@ -12,6 +37,7 @@ time = now.format("HH:mm")
 date = now.format("YYYY-MM-DD")
 current_path = os.getcwd() + "/"
 
+# Grab the config and load it into a small dict for furture access
 with open(current_path + "config.yaml", "r") as open_config:
     config = yaml.load(unicode(open_config.read()))
 
@@ -26,6 +52,7 @@ for key in whats_where:
         whats_where[key] = current_path + config[key]
 
 
+# make sure the output directory exists
 if not os.path.exists(whats_where["output"]):
     os.makedirs(whats_where["output"])
 
@@ -46,13 +73,6 @@ fh = logging.FileHandler("board_build.log")
 fh.setLevel(level)
 fh.setFormatter(formatter)
 logger.addHandler(fh)
-try:
-    ch = logging.StreamHandler()
-    ch.setLevel(level)
-    ch.setFormatter(logging.Formatter("%(message)s"))
-    logger.addHandler(ch)
-except:
-    pass
 
 
 class configException(Exception):
@@ -60,7 +80,16 @@ class configException(Exception):
 
 
 class Page:
+    """Represents a single page."""
     def __init__(self, full_where):
+        """
+        Go through and make sure we know where everything is, then after that
+        we read in the raw file, pull out the config and check it for integrity
+        and finally set the markdown and the config to internal class
+        variables.
+
+        :param full_where: The location of the raw .md file
+        """
         self.full_where = full_where
         self.which_file = self.full_where.split(whats_where["input"])[1].lstrip("/")
         with open(self.full_where, "r") as open_read_file:
@@ -83,6 +112,14 @@ class Page:
             raise configException("No title")
 
     def render(self, data={}):
+        """
+        Runs the raw markdown through mustache, then converts it to HTML with
+        markdown, and finally renders the template with the converted markdown
+        to produce the final page.
+
+        :param data: An optional dict of additional data that gets passed to
+        the mustache templates while they render.
+        """
         data.update({"time": time,
                      "date": date,
                      "site_title": config["site_title"]})
@@ -101,6 +138,9 @@ class Page:
 
 
     def write(self):
+        """
+        Writes out the page to the output directory
+        """
         write_where = ("%s/%s" % (whats_where["output"],
                                   self.which_file)).rstrip("md") + "html"
 
@@ -115,6 +155,20 @@ class Page:
 
 
 if __name__ == "__main__":
+    #If we're running this stand alone, then make sure we setup a console
+    #logger too.
+    try:
+        ch = logging.StreamHandler()
+        ch.setLevel(level)
+        ch.setFormatter(logging.Formatter("%(message)s"))
+        logger.addHandler(ch)
+    except:
+        pass
+
+    #Walk through the input directory, checking to make sure the page is a .md
+    #file, if it is, then we create a page object out of it, render and write
+    #out the page file. If that fails, or if the file isn't a .md file, we
+    #skip it. If there was a failure it'll be logged.
     for folder in os.walk(whats_where["input"]):
         all_files = folder[2] # files in current directory
         for single_file in all_files:

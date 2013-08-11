@@ -309,3 +309,291 @@ Wrote /home/josh/repos/board/example/build/about.html
     /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
 2013-08-10 13:03:00,272 - board - INFO
     Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:13:26,252 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:13:26,266 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:13:26,268 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:13:26,269 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:13:26,270 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:13:26,271 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:13:26,273 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:13:26,274 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:13:26,308 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:14:52,329 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:14:52,343 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:14:52,345 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:14:52,346 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:14:52,347 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:14:52,349 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:14:52,350 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:14:52,351 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:14:52,385 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:18:57,906 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:18:57,920 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:18:57,921 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:18:57,923 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:18:57,924 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:18:57,925 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:18:57,927 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:18:57,928 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:18:57,961 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:20:13,058 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:20:13,073 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:20:13,074 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:20:13,075 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:20:13,077 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:20:13,078 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:20:13,080 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:20:13,081 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:20:13,114 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:20:50,598 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:20:50,612 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:20:50,614 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:20:50,615 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:20:50,616 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:20:50,618 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:20:50,619 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:20:50,621 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:20:50,653 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:24:01,466 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:24:01,481 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:24:01,483 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:24:01,484 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:24:01,485 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:24:01,486 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:24:01,488 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:24:01,489 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:24:01,525 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 18:24:43,314 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 18:24:43,328 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 18:24:43,330 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 18:24:43,331 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 18:24:43,332 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 18:24:43,333 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 18:24:43,335 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 18:24:43,336 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 18:24:43,368 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 19:03:34,086 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:03:34,101 - board - INFO
+    Wrote /srv/http/joshashby.com/about.html
+2013-08-10 19:03:34,103 - board - WARNING
+    /home/josh/repos/board/example/src/projects/index.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,104 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,105 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,107 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,108 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,110 - board - WARNING
+    /home/josh/repos/board/example/src/projects/list.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,111 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,113 - board - WARNING
+    /home/josh/repos/board/example/src/posts/index.md contains no config in header. Skipping build!
+2013-08-10 19:03:34,148 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0.html
+2013-08-10 19:10:43,300 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:10:43,317 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-10 19:10:43,318 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-10 19:10:43,319 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-10 19:10:43,321 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-10 19:10:43,323 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-10 19:10:43,325 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-10 19:10:43,353 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-10 19:10:43,386 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-10 19:10:43,408 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html
+2013-08-10 19:11:28,081 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:11:28,106 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-10 19:11:28,107 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-10 19:11:28,109 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-10 19:11:28,111 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-10 19:11:28,112 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-10 19:11:28,114 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-10 19:11:28,139 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-10 19:11:28,168 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-10 19:11:28,183 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html
+2013-08-10 19:13:12,396 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:13:12,413 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-10 19:13:12,415 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-10 19:13:12,416 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-10 19:13:12,418 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-10 19:13:12,419 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-10 19:13:12,421 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-10 19:13:12,449 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-10 19:13:12,486 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-10 19:13:12,509 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html
+2013-08-10 19:19:47,489 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:19:47,517 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-10 19:19:47,519 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-10 19:19:47,520 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-10 19:19:47,522 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-10 19:19:47,523 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-10 19:19:47,525 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-10 19:19:47,548 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-10 19:19:47,571 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-10 19:19:47,588 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html
+2013-08-10 19:21:20,843 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:21:20,863 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-10 19:21:20,864 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:20,866 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:20,867 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:20,869 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:20,870 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:20,902 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-10 19:21:20,932 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-10 19:21:20,954 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html
+2013-08-10 19:21:42,339 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-10 19:21:42,359 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-10 19:21:42,361 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:42,362 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:42,364 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:42,366 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:42,367 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-10 19:21:42,403 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-10 19:21:42,445 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-10 19:21:42,470 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html
+2013-08-11 11:54:03,875 - board - INFO
+    Wrote /srv/http/joshashby.com/index.html
+2013-08-11 11:54:03,896 - board - INFO
+    Wrote /srv/http/joshashby.com/projects/index.html
+2013-08-11 11:54:03,898 - board - WARNING
+    /home/josh/repos/board/example/src/projects/beaglebone/index.md contains no config in header. Skipping build!
+2013-08-11 11:54:03,899 - board - WARNING
+    /home/josh/repos/board/example/src/projects/past/index.md contains no config in header. Skipping build!
+2013-08-11 11:54:03,901 - board - WARNING
+    /home/josh/repos/board/example/src/projects/pyRethinkORM/index.md contains no config in header. Skipping build!
+2013-08-11 11:54:03,903 - board - WARNING
+    /home/josh/repos/board/example/src/projects/flagr/index.md contains no config in header. Skipping build!
+2013-08-11 11:54:03,904 - board - WARNING
+    /home/josh/repos/board/example/src/projects/seshat/index.md contains no config in header. Skipping build!
+2013-08-11 11:54:03,938 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/index.html
+2013-08-11 11:54:03,970 - board - INFO
+    Wrote /srv/http/joshashby.com/posts/0/index.html
+2013-08-11 11:54:03,991 - board - INFO
+    Wrote /srv/http/joshashby.com/about/index.html

@@ -15,18 +15,31 @@
     <div class="navbar">
       <a class="navbar-brand" href="/">JoshAshby.com</a>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="/posts/">News</a></li>
-        <li><a href="/projects/">Projects</a></li>
+        <li {{#nav.index}}class="active"{{/nav.index}}><a href="/">Home</a></li>
+        <li {{#nav.posts}}class="active"{{/nav.posts}}><a href="/posts/">Posts</a></li>
+        <li {{#nav.projects}}class="active"{{/nav.projects}}><a href="/projects/">Projects</a></li>
       </ul>
       <ul class="nav navbar-nav pull-right">
-        <li><a href="/me/about/">About</a></li>
+        <li {{#nav.about}}class="active"{{/nav.about}}><a href="/about/">About</a></li>
       </ul>
     </div>
 
     <div class="container">
 
-      {{{content}}}
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron">
+            <h1>{{{header}}}</h1>
+            <p>{{{header_info}}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 col-offset-3">
+          {{{content}}}
+        </div>
+      </div>
 
       <hr>
       <footer id="footer">
