@@ -37,6 +37,8 @@ time = now.format("HH:mm")
 date = now.format("YYYY-MM-DD")
 current_path = os.getcwd() + "/"
 
+extension = ".html"
+
 # Grab the config and load it into a small dict for furture access
 with open(current_path + "config.yaml", "r") as open_config:
     config = yaml.load(unicode(open_config.read()))
@@ -45,11 +47,18 @@ whats_where = {"input":"",
                "output": "",
                "templates": ""}
 
+raw_extra_tmpls = {}
+
 for key in whats_where:
     if config[key][0] == "/":
         whats_where[key] = config[key]
     else:
         whats_where[key] = current_path + config[key]
+
+if "files" in config:
+    for file_name in config["files"]:
+        with open( "%s/%s%s" % (whats_where["templates"], file_name, extension)) as tmpl_raw:
+            raw_extra_tmpls[file_name] = tmpl_raw.read()
 
 
 # make sure the output directory exists
@@ -120,16 +129,22 @@ class Page:
         :param data: An optional dict of additional data that gets passed to
         the mustache templates while they render.
         """
+        extra_tmpls = {}
         data.update({"time": time,
                      "date": date,
                      "site_title": config["site_title"]})
         data.update(self.page_config)
 
+        for tmpl in raw_extra_tmpls:
+            extra_tmpls[tmpl] = pystache.render(raw_extra_tmpls[tmpl], data)
+
+        data.update({"files": extra_tmpls})
+
         templated_markdown = pystache.render(self.raw_markdown, data)
-        data["content"] = markdown(templated_markdown)
+        data["content"] = markdown(templated_markdown, extensions=['extra'])
 
         template = self.page_config["template"] if "template" in self.page_config else "single"
-        template_path = whats_where["templates"] + "/" + template + ".html"
+        template_path = whats_where["templates"] + "/" + template + extension
 
         with open(template_path, "r") as tmpl_data:
             raw_tmpl = unicode(tmpl_data.read())
